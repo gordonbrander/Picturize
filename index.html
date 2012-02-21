@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Responsive Image</title>
+	<script src="vendor/modernizr.custom.min.js"></script>
+	<script src="vendor/jquery.1.7.1.min.js"></script>
+	<script src="picturize.js"></script>
+	<script src="boot.js"></script>
+</head>
+<body>
+    <picture>
+        <source
+            src="http://placekitten.com/200/150"></source>
+        <source 
+            media="(min-width: 800px)"
+            src="http://placekitten.com/300/225"></source>
+        <source
+            media="(min-width: 1200px)"
+            src="http://placekitten.com/600/450"></source>
+    </picture>
+</body>
+</html>

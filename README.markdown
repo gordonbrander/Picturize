@@ -1,0 +1,1 @@
+Exploring the polyfill potential of a theoretical `<picture>` tag for responsive images. See <http://www.w3.org/community/respimg/2012/02/20/14/>.
